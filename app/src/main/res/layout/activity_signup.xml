@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12"
+        tools:context=".activity.SignupActivity"
+        android:id="@+id/content_home">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="12"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/FirstName"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="First Name"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/LastName"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Last Name"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/ContactNumber"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Contact Number"
+                android:inputType="number"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/Email"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Email ID"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/Gender"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Gender"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/Password"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/Address"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Address"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/State"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="State"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/City"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="City"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/Pincode"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Pincode"
+                android:inputType="number"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/Age"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Age"
+                android:inputType="number"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/PhoneType"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:hint="Phone Type"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/Signup"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
+                android:padding="5dp"
+                android:text="Sign up"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
